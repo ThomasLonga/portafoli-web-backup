@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.2%;
+  @media screen and (max-width: 540px) {
+    font: size 12px;
+  }
+}
+body {
+  background-color: #f7f4f4;
+  font-size: 20px;
+}
+
+/* INCIO DE ESTILOS PARA EL HEADER  */
+
+.menu_header {
+  top: 0;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: #e4e4e4;
+  box-shadow: 0px 3px 11px gray;
+}
+
+.caja {
+  display: flex;
+}
+
+.logo_imagen {
+  width: 100px;
+}
+
+.links_pagues {
+  color: black;
+  text-decoration: none;
+}
+
+.menu_list {
+  display: flex;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 47px;
+  margin-left: 240px;
+  justify-content: space-between;
+}
+
+.links_pagues {
+  transition: all 1.5s;
+}
+
+.links_pagues:hover {
+  color: rgb(172, 172, 236);
+  font-size: 40px;
+}
