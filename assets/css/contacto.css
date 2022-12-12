@@ -82,3 +82,21 @@
   background-color: black;
   transition: 0.5s;
 }
+
+/* ESTILO PARA EL RODAPIE */
+
+.rodapie {
+  display: flex;
+  justify-content: center;
+  background-color: #212529;
+  margin-top: 10%;
+  height: 80px;
+  font-size: 1em;
+  color: white;
+}
+
+.rodapie_text {
+  margin-top: 18px;
+  width: 24%;
+  text-align: center;
+}
