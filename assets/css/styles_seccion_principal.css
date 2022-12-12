@@ -73,9 +73,11 @@
 }
 
 .imagenes_redes:hover {
-  border: 5px solid rgb(172, 172, 236);
   border-radius: 15px;
-  width: 80px;
+  transition-timing-function: ease-out;
+  transition-duration: 100ms;
+  transform: scale(1.2, 1.2);
+  transition: all 0.5s;
 }
 
 .boton {
